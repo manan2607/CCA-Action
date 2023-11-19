@@ -21,4 +21,4 @@ jobs:
       with: 
         context: DockerFileFolder/
         push: true
-        tags: manan2607/githubactionpushed:latest
+        tags: manan2607/testrepo:latest
