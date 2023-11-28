@@ -1,9 +1,6 @@
 name : CCA-Proj
 
 on: 
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
