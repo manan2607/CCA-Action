@@ -1,6 +1,12 @@
 name : CCA-Proj
 
-on: push
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   push_to_registry:
