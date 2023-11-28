@@ -3,7 +3,7 @@ name : CCA-Proj
 on: 
   pull_request:
     branches:
-      - main
+      - 'main'
 
 jobs:
   push_to_registry:
